@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
-  "directories": {
-    "lib": "lib"
-  },
   "scripts": {
     "start": "nodemon ./bin/www"
   },
@@ -22,5 +19,8 @@
     "hbs": "~4.0.1",
     "morgan": "~1.9.0",
     "nodemon": "^1.13.3"
+  },
+  "engines": {
+    "node": "8.9"
   }
 }
